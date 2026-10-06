@@ -12,13 +12,13 @@ COPY config/ /app/config
 COPY *.js /app/
 COPY *.txt /app/
 COPY package.json /app/
-COPY package-lock.json /app/
+
 COPY default-template.json /app/
 
 COPY portal/src /app/portal/src
 COPY portal/public /app/portal/public
 COPY portal/package.json /app/portal/package.json
-COPY portal/package-lock.json /app/portal/package-lock.json
+
 COPY portal/tsconfig.json /app/portal/tsconfig.json
 COPY portal/webpack.config.mjs /app/portal/webpack.config.mjs
 
